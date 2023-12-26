@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: antiquewhite;
+    width: auto;
+    border: 10px solid black;
+    place-items: center;
+}
+
+.content {
+    padding-right:50%;
+    padding-left:20%;
+    padding-top:100px;
+    display:inline-flex;
+}
+
+.innerA {
+    height: 100px;
+    width: 50%;
+}
+
+.innerA img {
+    height: 350px;
+    width: 320px;
+    border-radius: 30%;
+}
+
+.innerB {
+    height: 100px;
+    width: 50%;
+}
+
+.innerB h1{
+    font-size: 50px;
+    float: right;
+}
+
+.innerB h4{
+
+}
